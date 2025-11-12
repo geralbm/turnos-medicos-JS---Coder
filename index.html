@@ -21,63 +21,43 @@
     </header>
 
     <main>
-        <!-- Formulario para mailing de novedades -->
-        <form>
-            <h2>¿DESEA RECIBIR NOVEDADES VIA E-MAIL?</h2>
-            <label>
-                <input type="radio" name="noti" value="si"> Si
-            </label><br>
-            <label>
-                <input type="radio" name="noti" value="no"> No
-            </label><br>
-            <div class="btnEnviarMailing">
-				<input type="submit" value="Aceptar"/>
-			</div>
-        </form>
+        <section class="contenedor">   
 
-        
-        <h3>ESPECIALIDES: SOLICITA TURNO/S:</h3>
-        <!-- Grilla de Especialidades principales -->
-        <section class="izqContenedor">
-            <div class="izqImghome">
+            <h3>ESPECIALIDES: SOLICITA TURNO/S:</h3>
+            <!-- Grilla de Especialidades principales -->
+            <div class="cardHome">
                 <img src="./assets/img/homeLaboratorio.jpg" alt="Laboratorio">;
-                <h3>LABORATORIO</h3>
+                <a href="#">LABORATORIO</a>
             </div>
 
-            <div class="izqImghome">
+            <div class="cardHome">
                 <img src="./assets/img/homeChequeoMedico.jpg" alt="Chqueo Medico">
-                <h3>CHEQUEO MEDICO</h3>
+                <a href=""">CHEQUEO MEDICO</a>
             </div>
 
-            <div class="izqImghome">
+            <div class="cardHome">
                 <img src="./assets/img/homeEcografia.jpg" alt="Ecografia">
-                <h3>ECOGRAFIA</h3>
+                <a href="#">ECOGRAFIA</a>
             </div>
 
-            <div>
-                <img src="/assets/img/homeResonancia.jpg" alt="Resonancia">
-                <h3>RESONANCIA</h3>
-            </div>
-
-
-            <!-- Formulario de loguin -->
-            <form action="login">
-                <h3>INICAR SESION:</h3>
-                <label for="usuario">Nombre de usuario:</label>
-                <input type="text" id="usuario" name="usuario">
-
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" name="contrasena">
-
-                <input type="submit" value="Iniciar Sesión">
+            <!-- Formulario para mailing de novedades -->
+            <form class="formHome">
+                <p>¿DESEA RECIBIR NOVEDADES VIA E-MAIL?</p>
                 
-                <a href="#">¿Olvidaste la Contraseña?</a>
-                <a href="#">Registrarse</a>
+                <labe class="inputHome">
+                    <input type="radio" name="noti" value="si"> Si
+                </label>
+
+                <label class="inputHome">
+                    <input type="radio" name="noti" value="no"> No
+                </label>
+
+                <div class="btnEnviarMailing">
+				    <input type="submit" value="Aceptar"/>
+			    </div>  
+            
             </form>
-
-
         </section>
-
 
 
     </main>

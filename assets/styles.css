@@ -30,8 +30,6 @@ header {
     margin: 0;
     text-align: center;
     background-color:#333; 
-    box-shadow: 0 0 25px 25px rgba(76, 68, 114, 0.568);
-
 }
 
 .logo img {
@@ -52,17 +50,105 @@ header {
     padding: 12px;
 }
 
-/* Estilo del Pie de Pagina*/
-footer {
+/* Estilo del Home */
+main {
     display: flex;
-    background: #194b81;
     width: auto;
     height: auto;
     justify-content: space-around;
     padding: 1.25rem;
-    box-shadow: 0 0 25px 25px rgba(43, 23, 131, 0.568);
-    font-size: .75rem;
+    font-size: .75rem; 
+    background-color: #f2f2f2;
     
+}
+
+.contenedor h3{
+    text-align:left;
+    color: #124c8a;
+    font-size: 2em;
+    border-bottom: 2px solid #2e3135;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    letter-spacing:1px;
+}
+
+.cardHome {
+    position: relative;
+    display: inline-block;
+    padding: 3px;
+
+}
+
+.cardHome img {
+    display: block;
+    width: 100%;
+    height: 160%;
+    border: 2px solid #124c8a; 
+    border-radius: 8px; 
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardHome a{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    color: #f2f2f2;
+    width: 60%;
+    letter-spacing: 2px;
+    font-size: 15px;
+    
+}
+/* Estilo del Form Home */
+.contenedor .formHome p{
+    text-align:left;
+    color: #c48e1b;
+    font-size: 1.5em;
+    border-bottom: 2px solid #c48e1b;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    letter-spacing: 1px;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 10px;
+    
+}
+.contenedor .formHome .inputHome {
+    margin:  15px;
+    color: #c48e1b;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.contenedor .formHome .btnEnviarMailing input {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #c48e1b;
+    color: #f2f2f2;
+    box-shadow: 2px 2px 5px rgba(99, 91, 91, 0.788);
+    height: 100%;
+    width: 8%;
+     letter-spacing: 1px;
+}
+
+/* Estilo del Pie de Pagina*/
+footer {
+    display: flex;
+    background: #194b81;
+    width: 100%;
+    height:auto;
+    justify-content: space-around;
+    padding: 1.25rem;
+    box-shadow: 0 0 25px 25px rgba(172, 169, 187, 0.568);
+    font-size: .75rem;
+    position: absolute;
+    bottom: 0;
+
 }
 
 div h4 {
