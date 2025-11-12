@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+/* Estilo del Menú*/
+header {
+    background-color: #333; 
+    padding: 10px 20px; 
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    max-width: 1200px;
+    background-color: #333;  
+}
+
+.navBar .logo{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color:#333; 
+    box-shadow: 0 0 25px 25px rgba(76, 68, 114, 0.568);
+
+}
+
+.logo img {
+    height: 90px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: 1.5px solid rgba(145, 140, 140, 0.704);
+}
+
+.navBar h1 {
+    background-color: #333;  
+    color:#f2f2f2;
+    font-size: 1.75rem;
+    margin: 0;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+/* Estilo del Pie de Pagina*/
+footer {
+    display: flex;
+    background: #194b81;
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+    padding: 1.25rem;
+    box-shadow: 0 0 25px 25px rgba(43, 23, 131, 0.568);
+    font-size: .75rem;
+    
+}
+
+div h4 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; /* Ancho máximo para el contenido */
+    margin: 0 auto;
+    background: #194b81;
+    color: #f2f2f2;
+    letter-spacing: 2px;
+    
+}
+
+div a {
+    background: #194b81;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
