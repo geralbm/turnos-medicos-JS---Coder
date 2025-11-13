@@ -70,6 +70,8 @@ main {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     padding: 10px;
     letter-spacing:1px;
+    margin: 20px;
+    
 }
 
 .cardHome {
@@ -114,27 +116,18 @@ main {
     letter-spacing: 1px;
     padding: 10px;
     font-weight: bolder;
-    margin: 10px;
+    margin: 20px;
     
 }
-.contenedor .formHome .inputHome {
-    margin:  15px;
-    color: #c48e1b;
-    font-weight: bolder;
-    font-size: 14px;
-}
 
-.contenedor .formHome .btnEnviarMailing input {
+.contenedor .formHome .btnEnviarMailing  {
     margin: 5px;
-    font-size: 15px;
-    font-weight: bolder;
-    background-color: #c48e1b;
-    color: #f2f2f2;
-    box-shadow: 2px 2px 5px rgba(99, 91, 91, 0.788);
-    height: 100%;
-    width: 8%;
-     letter-spacing: 1px;
-}
+    font-size: 12px;
+    color: #dee1e6;
+    height: auto;
+    width: 19%;
+    letter-spacing: 1px;
+} 
 
 /* Estilo del Pie de Pagina*/
 footer {
@@ -143,12 +136,11 @@ footer {
     width: 100%;
     height:auto;
     justify-content: space-around;
-    padding: 1.25rem;
+    padding: 1.2rem;
     box-shadow: 0 0 25px 25px rgba(172, 169, 187, 0.568);
     font-size: .75rem;
     position: absolute;
-    bottom: 0;
-
+    
 }
 
 div h4 {
@@ -162,7 +154,7 @@ div h4 {
     
 }
 
-div a {
+footer div a {
     background: #194b81;
     color: #f2f2f2;
     text-decoration: none;

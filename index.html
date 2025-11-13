@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia a archivo JS -->
-    <script defer src="js/solicitarTurno.js"></script>
+    <script defer src="js/recibirNovedades.js"></script>
     <!-- Referenci2a a Estilos CSS -->
     <link rel="stylesheet" href="assets/styles.css">
     <title>Turnos Medicos</title>
@@ -26,13 +26,13 @@
             <h3>ESPECIALIDES: SOLICITA TURNO/S:</h3>
             <!-- Grilla de Especialidades principales -->
             <div class="cardHome">
-                <img src="./assets/img/homeLaboratorio.jpg" alt="Laboratorio">;
+                <img src="./assets/img/homeLaboratorio.jpg" alt="Laboratorio">
                 <a href="#">LABORATORIO</a>
             </div>
 
             <div class="cardHome">
                 <img src="./assets/img/homeChequeoMedico.jpg" alt="Chqueo Medico">
-                <a href=""">CHEQUEO MEDICO</a>
+                <a href="#">CHEQUEO MEDICO</a>
             </div>
 
             <div class="cardHome">
@@ -43,18 +43,10 @@
             <!-- Formulario para mailing de novedades -->
             <form class="formHome">
                 <p>¿DESEA RECIBIR NOVEDADES VIA E-MAIL?</p>
-                
-                <labe class="inputHome">
-                    <input type="radio" name="noti" value="si"> Si
-                </label>
-
-                <label class="inputHome">
-                    <input type="radio" name="noti" value="no"> No
-                </label>
 
                 <div class="btnEnviarMailing">
-				    <input type="submit" value="Aceptar"/>
-			    </div>  
+				    <a id="btnHome" href="./pages/formDatosNov.html">Aceptar</a>
+			    </div>  .
             
             </form>
         </section>
